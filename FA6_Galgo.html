@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+        #l1:link {
+            display: inline-block;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: #7fffd4;
+            border: 3px solid #87cefa;
+            color: #000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        #l2:link {
+            display: inline-block;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: #ff69b4;
+            border: 3px solid #ff1493; 
+            color: #000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        #l1:visited{
+            background-color: #9932cc;
+            border: 3px solid #87cefa;
+            color: #000;
+        }
+        #l2:visited{
+            background-color: #cc327a;
+            border: 3px solid #87cefa;
+            color: #000;
+        }
+        #l1:hover{
+            background-color: #fff;
+            border: 3px solid #000;
+            color:#9932cc
+        }
+        #l2:hover{
+            background-color: #fff;
+            border: 3px solid #000;
+            color:#cc327a
+        }
+        #l1:active{
+            background-color: #000;
+            color: #fff;
+            border: 3px solid #fff;
+        }
+        #l2:active{
+            background-color: #000;
+            color: #fff;
+            border: 3px solid #fff;
+        }
+        div{
+            font-size: 30px;
+            padding: 50px;
+            margin-top: 25px;
+            margin-left: 20px;
+            width: 100px;
+            text-align: center;
+            border: 5px solid #000;
+        }
+        #div1:target{
+            background-color: #7fffd4;
+            border: none;
+        }
+        #div2:target{
+            background-color: #ff69b4;
+            border: 10px dotted #008000;
+        }
+        </style>
+    </head>
+
+    <body>
+    <a href="#div1" id="l1">First Link</a>
+    <a href="#div2" id="l2">Second Link</a>
+    <div id="div1">Div 1 Here</div>
+    <div id="div2">Div 2 Here</div>
+    </body>
+</html>
